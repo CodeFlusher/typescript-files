@@ -24,5 +24,8 @@ Utilises locally run [LibreTranslate](https://github.com/LibreTranslate/LibreTra
 Does generous ai request to Gemma3, running on ollama.
 Accepts inline and file data
 
+## Tech details
+Self-written console argument parser, configurable by a single object.
+Hook inspired workflow
 
 This project was created using `bun init` in bun v1.2.12. [Bun](https://bun.sh) is a fast all-in-one JavaScript runtime.
