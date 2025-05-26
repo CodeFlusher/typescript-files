@@ -1,0 +1,21 @@
+{
+  "name": "ts",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "help": "bun run index.ts",
+    "translate": "bun run translate.ts"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "dotenv": "^16.5.0",
+    "eslint": "^9.26.0",
+    "prettier": "^3.5.3"
+  }
+}
